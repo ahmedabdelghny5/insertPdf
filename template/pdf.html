@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: darkgreen; ">Hello</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, velit?</p>
+    <ul>
+        {{#each users}}
+        <li>Name: {{this.name}}</li>
+        <li>Email: {{this.email}}</li>
+        <li>password: {{this.password}}</li>
+        <br />
+        {{/each}}
+      </ul>
+</body>
+</html>
